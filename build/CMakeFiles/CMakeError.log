@@ -1,0 +1,38 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_241f6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_241f6.dir/build.make CMakeFiles/cmTC_241f6.dir/build
+gmake[1]: Entering directory '/home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_241f6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_241f6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_241f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_241f6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_241f6.dir/CheckFunctionExists.c.o -o cmTC_241f6 
+/usr/bin/ld: CMakeFiles/cmTC_241f6.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_241f6.dir/build.make:99: cmTC_241f6] Error 1
+gmake[1]: Leaving directory '/home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_241f6/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11c94/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11c94.dir/build.make CMakeFiles/cmTC_11c94.dir/build
+gmake[1]: Entering directory '/home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11c94.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_11c94.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11c94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11c94.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_11c94.dir/CheckFunctionExists.c.o -o cmTC_11c94 
+/usr/bin/ld: CMakeFiles/cmTC_11c94.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_11c94.dir/build.make:99: cmTC_11c94] Error 1
+gmake[1]: Leaving directory '/home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_11c94/fast] Error 2
+
+
+

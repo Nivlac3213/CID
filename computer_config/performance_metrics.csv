@@ -1,0 +1,9 @@
+Test,Result,Unit
+Ping Average Latency,0.229,ms
+SSH Connection Time,0m1.658s,s
+SCP Upload Rate,172.00000,KB/s
+SCP Download Rate,172.00000,KB/s
+Iperf3 Bandwidth,934.14,Mbps
+Netcat Throughput,17373737.3737373,KB/s
+TCP,218.92632,Mbps
+UDP,404.91385,Mbps

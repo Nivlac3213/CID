@@ -1,0 +1,25 @@
+%% Used to calcualte and solve the k factor in SDR's
+% Author: Calvin Henggeler
+
+clc;
+clear;
+close all;
+
+%% extract the data
+data = readtable("2702Tonesamples.csv", 'MissingRule','omitrow');
+save("2702Tonesamples.mat", "data");
+
+%% Load data
+data = load("2702Tonesamples.mat");
+iq_data = data.data;
+
+%% plot I and Q data
+t = 1:length(iq_data);
+
+subplot(2,1,1)
+plot(t,iq_data(:,1))
+title('I signal')
+
+subplot(2,1,2)
+plot(y, iq_data(:,2));
+title('Q signal')

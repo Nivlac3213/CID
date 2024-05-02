@@ -1,0 +1,5 @@
+/home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/CMakeFiles/edit_cache.dir
+/home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/CMakeFiles/rebuild_cache.dir
+/home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/src/CMakeFiles/serverApp.dir
+/home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/src/CMakeFiles/edit_cache.dir
+/home/calvin/repos/CESE-CellularIntrusionDetection-S2024/build/src/CMakeFiles/rebuild_cache.dir

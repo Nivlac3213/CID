@@ -1,0 +1,11 @@
+**This file simply stores frequently used sqlite3 commands for easy access
+
+CREATE TABLE coordinates (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    x REAL NOT NULL,
+    y REAL NOT NULL
+);
+
+INSERT INTO coordinates (x, y) VALUES (100, 150);
+
+DROP TABLE coordinates;
